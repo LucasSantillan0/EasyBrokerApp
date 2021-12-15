@@ -1,10 +1,17 @@
 import './App.css';
+import Propieties from './components/propieties';
+import { useState, useEffect } from 'react';
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <nav>
+        <h1>EasyBroker app</h1>
+        <h2>Lucas Santillán</h2>
+      </nav>
+      <Propieties/>
     </div>
   );
 }
